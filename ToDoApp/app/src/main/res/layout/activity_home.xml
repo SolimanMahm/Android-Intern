@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activities.HomeActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="24dp"
+        app:backgroundTint="@color/circuleButton"
+        app:srcCompat="@drawable/add_plus_svgrepo_com"
+        app:tint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/currentDate"
+            style="@style/textView"
+            android:text="September 9, 2024"
+            android:textFontWeight="400" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="12dp" />
+
+        <TextView
+            style="@style/textView"
+            android:text="@string/today"
+            android:textFontWeight="400" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="6dp" />
+
+        <FrameLayout
+            android:id="@+id/fragmentContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="110dp" />
+
+        <LinearLayout
+            android:id="@+id/noTasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/no_tasks" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <TextView
+                style="@style/textView"
+                android:layout_width="wrap_content"
+                android:text="@string/noTaskTitle"
+                android:textFontWeight="400"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <TextView
+                style="@style/textView"
+                android:layout_width="wrap_content"
+                android:text="@string/noTaskSubTitle"
+                android:textFontWeight="400"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

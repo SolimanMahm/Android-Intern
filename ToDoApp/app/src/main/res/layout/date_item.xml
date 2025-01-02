@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="55dp"
+    android:layout_height="90dp"
+    android:layout_gravity="center"
+    android:layout_marginEnd="8dp"
+    android:outlineSpotShadowColor="@android:color/transparent"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="7dp">
+
+    <LinearLayout
+        android:id="@+id/cardItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/month"
+            style="@style/textView"
+            android:gravity="center"
+            android:textFontWeight="400"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/numberDay"
+            style="@style/textView"
+            android:gravity="center"
+            android:textFontWeight="400"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/day"
+            style="@style/textView"
+            android:gravity="center"
+            android:textFontWeight="400"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

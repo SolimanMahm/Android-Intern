@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="today">Today</string>
+    <string name="noTaskTitle">What do you want to do today?</string>
+    <string name="noTaskSubTitle">Tap + to add your tasks</string>
+    <string name="completed">COMPLETED</string>
+    <string name="toDo">TODO</string>
+    <string name="titleOn1">Manage your tasks</string>
+    <string name="subTitleOn1">You can easily manage all of your daily tasks in ToDo for free</string>
+    <string name="titleOn2">Create daily routine</string>
+    <string name="subTitleOn2">In ToDo you can create your personalized routine to stay productive</string>
+    <string name="titleOn3">Organize your tasks</string>
+    <string name="subTitleOn3">You can organize your daily tasks by adding your tasks into separate categories</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="back">Back</string>
+</resources>
