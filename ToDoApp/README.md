@@ -13,7 +13,7 @@
 
 ## 🚀 Getting Started
 
-- **Splash Screen **: Used a `Handler` to introduce a delay, ensuring the app loads seamlessly before transitioning to the main screen.
+- *Splash Screen*: Used a `Handler` to introduce a delay, ensuring the app loads seamlessly before transitioning to the main screen.
 
 - *Onboarding Screen*:  Implemented an onboarding experience using `ViewPager`, creating smooth, swipeable pages that highlight key features of the app for new users.
 
