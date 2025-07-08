@@ -13,7 +13,7 @@ A basic stopwatch app that displays minutes, seconds, and milliseconds and allow
 
 ## 🚀 Getting Started
 
-- Stopwatch app same UI in Calculator `Xiaomi`.
+- Stopwatch app same UI in Stopwatch `Xiaomi`.
 - Utilize a `Runnable` to execute logic on a background (worker) thread, and use a `Handler` to schedule and repeat its execution at regular intervals.
 - Implemented subtle UI `animations` to improve user interaction and provide a modern, responsive feel to the application.
    
