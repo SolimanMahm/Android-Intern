@@ -1,5 +1,5 @@
-# Calculator
-Build a calculator app that can perform basic arithmetic operations.
+# Stopwatch
+A basic stopwatch app that displays minutes, seconds, and milliseconds and allows users to start, pause, and reset the timer.
 <div align="start">
      <a href="https://api.visitorbadge.io/api/visitors?path=ChatterBox-AI-App&label=People%20who%20visited%20this%20page&countColor=%23263759" target="_blank">
         <img src="https://api.visitorbadge.io/api/visitors?path=ChatterBox-AI-App&label=People%20who%20visited%20this%20page&countColor=%23263759" target="_blank" />
@@ -13,28 +13,22 @@ Build a calculator app that can perform basic arithmetic operations.
 
 ## 🚀 Getting Started
 
-- Calculator app same UI in Calculator `Xiaomi`. 
-- It can be used in `dark` mode or `light` mode. 
-- Perform `basic` arithmetic operations. 
-- I have relied upon the `Postfix expression`s to perform arithmetic operations correctly. They take into account the `order of priorities of mathematical operations`.
-  
-<hr>
-
-## 💻 Example
-
-- Infix : 1 + 2
-- Posfix: 1 2 +
-  
+- Stopwatch app same UI in Calculator `Xiaomi`.
+- Utilize a `Runnable` to execute logic on a background (worker) thread, and use a `Handler` to schedule and repeat its execution at regular intervals.
+- Implemented subtle UI `animations` to improve user interaction and provide a modern, responsive feel to the application.
+   
 <hr>
 
 
 ## ✨ UI
 
-![WhatsApp Image 2024-09-04 at 15 09 55_95e8c041](https://github.com/user-attachments/assets/479264a4-808b-4ef2-b54e-cc286da591e2)
+![WhatsApp Image 2025-07-08 at 23 57 39_bfa5b741](https://github.com/user-attachments/assets/adafa1eb-db69-41b7-85b6-ee2d95233001)
+
 
 <hr>
 
-![WhatsApp Image 2024-09-04 at 15 09 55_a0159f29](https://github.com/user-attachments/assets/d559e4cf-9c82-4214-8723-0901356cb0f0)
+![WhatsApp Image 2025-07-08 at 23 57 40_403ebe90](https://github.com/user-attachments/assets/a52b32f6-dcd7-4368-837b-b0e5b6260301)
+
 
 <hr>
 
