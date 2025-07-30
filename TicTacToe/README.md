@@ -1,5 +1,5 @@
-# Stopwatch
-A basic stopwatch app that displays minutes, seconds, and milliseconds and allows users to start, pause, and reset the timer.
+# TicTacToe
+A Tic Tac Toe game app where two players can take turns to place their symbols (X or O) on a 3x3 grid. The objective is to form a horizontal, vertical, or diagonal line of three of their symbols to win the game. The app should also include a reset option to start a new game.
 <div align="start">
      <a href="https://api.visitorbadge.io/api/visitors?path=ChatterBox-AI-App&label=People%20who%20visited%20this%20page&countColor=%23263759" target="_blank">
         <img src="https://api.visitorbadge.io/api/visitors?path=ChatterBox-AI-App&label=People%20who%20visited%20this%20page&countColor=%23263759" target="_blank" />
@@ -13,21 +13,26 @@ A basic stopwatch app that displays minutes, seconds, and milliseconds and allow
 
 ## 🚀 Getting Started
 
-- Stopwatch app same UI in Stopwatch `Xiaomi`.
-- Utilize a `Runnable` to execute logic on a background (worker) thread, and use a `Handler` to schedule and repeat its execution at regular intervals.
-- Implemented subtle UI `animations` to improve user interaction and provide a modern, responsive feel to the application.
+- Players' names `must` be added..
+- Use `Regex` to determine the winner by matching a specific `pattern`.
+- Show the winner or indicate a draw in a `dialog box`.
    
 <hr>
 
 
 ## ✨ UI
 
-![WhatsApp Image 2025-07-08 at 23 57 39_bfa5b741](https://github.com/user-attachments/assets/adafa1eb-db69-41b7-85b6-ee2d95233001)
+![WhatsApp Image 2025-07-29 at 13 33 12_b7b64f24](https://github.com/user-attachments/assets/ccf9d0f2-4d0c-456d-acd8-ae7171db0f49)
+
 
 
 <hr>
 
-![WhatsApp Image 2025-07-08 at 23 57 40_403ebe90](https://github.com/user-attachments/assets/a52b32f6-dcd7-4368-837b-b0e5b6260301)
+![WhatsApp Image 2025-07-29 at 13 33 12_1d567d92](https://github.com/user-attachments/assets/b832115d-05b2-4b17-8984-607cb07076b5)
+
+<hr>
+
+![WhatsApp Image 2025-07-29 at 13 33 12_d0ed603c](https://github.com/user-attachments/assets/0a979973-6f8f-4f90-90fa-1540fcb9dd44)
 
 
 <hr>
