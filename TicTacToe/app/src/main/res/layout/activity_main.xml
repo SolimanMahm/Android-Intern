@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/card_player_one"
+            style="@style/cardPlayerName"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/white_box"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_player_one"
+                style="@style/cardPlayerName_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                style="@style/cardPlayerName_imageView"
+                android:src="@drawable/ximage" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card_player_two"
+            style="@style/cardPlayerName"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_box"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_player_two"
+                style="@style/cardPlayerName_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                style="@style/cardPlayerName_imageView"
+                android:src="@drawable/oimage" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/card_00"
+            style="@style/cardPlayer_image" />
+
+        <ImageView
+            android:id="@+id/card_01"
+            style="@style/cardPlayer_image" />
+
+        <ImageView
+            android:id="@+id/card_02"
+            style="@style/cardPlayer_image" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/card_10"
+            style="@style/cardPlayer_image" />
+
+        <ImageView
+            android:id="@+id/card_11"
+            style="@style/cardPlayer_image" />
+
+        <ImageView
+            android:id="@+id/card_12"
+            style="@style/cardPlayer_image" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/card_20"
+            style="@style/cardPlayer_image" />
+
+        <ImageView
+            android:id="@+id/card_21"
+            style="@style/cardPlayer_image" />
+
+        <ImageView
+            android:id="@+id/card_22"
+            style="@style/cardPlayer_image" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.TicTacToe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/lavender</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:layout_marginTop">@dimen/_20sdp</item>
+        <item name="android:background">@drawable/lavender_border</item>
+        <item name="android:drawablePadding">@dimen/_8sdp</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+        <item name="android:textColor">@color/lavender</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="cardPlayerName">
+        <item name="android:layout_width">@dimen/_120sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/_20sdp</item>
+    </style>
+
+    <style name="cardPlayerName_textView">
+        <item name="android:textColor">@color/lavender</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_20ssp</item>
+    </style>
+
+    <style name="cardPlayerName_imageView">
+        <item name="android:layout_width">@dimen/_40sdp</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+    </style>
+
+    <style name="cardPlayer_image">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/_90sdp</item>
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_5sdp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/white_box</item>
+        <item name="android:padding">@dimen/_20sdp</item>
+    </style>
+
+</resources>

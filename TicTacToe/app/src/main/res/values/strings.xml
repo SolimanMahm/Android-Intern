@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="title">ENTER \n PLAYERS NAMES</string>
+    <string name="hint_one">Enter player one name</string>
+    <string name="hint_two">Enter player two name</string>
+    <string name="start_game">Start Game</string>
+</resources>
